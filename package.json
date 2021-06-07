@@ -1,0 +1,80 @@
+{
+  "name": "driver",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^27.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "@craco/craco": "^6.1.1",
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "clsx": "^1.1.1",
+    "filepond": "^4.21.1",
+    "filepond-plugin-file-rename": "^1.1.6",
+    "filepond-plugin-file-validate-size": "^2.2.2",
+    "filepond-plugin-file-validate-type": "^1.2.5",
+    "filepond-plugin-image-exif-orientation": "^1.0.9",
+    "filepond-plugin-image-preview": "^4.6.4",
+    "formik": "^2.2.7",
+    "hamburger-react": "^2.4.0",
+    "html-react-parser": "^1.2.6",
+    "js-cookie": "^2.2.1",
+    "moment": "^2.29.1",
+    "prop-types": "^15.7.2",
+    "react-cam": "^1.1.11",
+    "react-filepond": "^7.1.0",
+    "react-hook-form": "^4.10.2",
+    "react-html-parser": "^2.0.2",
+    "react-html5-camera-photo": "^1.5.4",
+    "react-infinite-scroller": "^1.2.4",
+    "react-loader-spinner": "^4.0.0",
+    "react-loading-skeleton": "^2.2.0",
+    "react-number-format": "^4.6.0",
+    "react-query": "^3.16.0",
+    "react-responsive-carousel": "^3.2.18",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.0",
+    "sweetalert2": "^11.0.8",
+    "typescript": "^4.2.4",
+    "web-vitals": "^1.0.1",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.4",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.35",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.4"
+  }
+}
